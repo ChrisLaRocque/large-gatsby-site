@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Large Gatsby Site`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://largegatsbysitemain.gtsb.io/`
   },
-  plugins: ["gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", {
+  plugins: ["gatsby-plugin-material-ui","gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
