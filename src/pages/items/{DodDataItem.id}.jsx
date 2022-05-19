@@ -66,10 +66,10 @@ export const query = graphql`
     }
   }
 `;
-export async function config() {
-  return ({ params }) => {
-    return {
-      defer: true,
-    };
-  };
-}
+// export async function config() {
+//   return ({ params }) => {
+//     return {
+//       defer: true,
+//     };
+//   };
+// }
